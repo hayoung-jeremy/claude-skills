@@ -1,0 +1,7 @@
+{
+  "name": "wrap-up",
+  "description": "작업 내용을 분석하고 노션에 정리 문서를 자동 생성하는 스킬",
+  "author": {
+    "name": "hayoung-jeremy"
+  }
+}
