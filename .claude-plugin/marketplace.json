@@ -15,6 +15,16 @@
       },
       "source": "./plugins/wrap-up",
       "category": "productivity"
+    },
+    {
+      "name": "rebuilderai-weekly-report",
+      "description": "RebuilderAI 전사 업무표(월) 자동 업데이트 스킬",
+      "version": "1.0.0",
+      "author": {
+        "name": "hayoung-jeremy"
+      },
+      "source": "./plugins/rebuilderai-weekly-report",
+      "category": "productivity"
     }
   ]
 }
