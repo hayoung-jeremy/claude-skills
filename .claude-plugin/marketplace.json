@@ -17,13 +17,13 @@
       "category": "productivity"
     },
     {
-      "name": "rebuilderai-weekly-report",
+      "name": "rebuilderai",
       "description": "RebuilderAI 업무 자동화 스킬 (주간 업무표 + Daily Scrum)",
       "version": "1.1.0",
       "author": {
         "name": "hayoung-jeremy"
       },
-      "source": "./plugins/rebuilderai-weekly-report",
+      "source": "./plugins/rebuilderai",
       "category": "productivity"
     }
   ]

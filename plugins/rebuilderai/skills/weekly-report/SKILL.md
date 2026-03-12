@@ -1,5 +1,5 @@
 ---
-name: rebuilderai-weekly-report
+name: weekly-report
 description: >
   RebuilderAI 전사 업무표(월) 자동 업데이트 스킬. 매주 초(월요일) 주간 업무 보고서 작성 시 반드시 사용할 것.
   Daily DB와 Notes DB를 분석해 지난주 달성 현황과 이번 주 업무 계획을 자동으로 작성하고
