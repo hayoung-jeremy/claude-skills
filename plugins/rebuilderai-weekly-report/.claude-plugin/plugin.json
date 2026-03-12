@@ -1,6 +1,6 @@
 {
   "name": "rebuilderai-weekly-report",
-  "description": "RebuilderAI 전사 업무표(월) 자동 업데이트 스킬",
+  "description": "RebuilderAI 업무 자동화 스킬 (주간 업무표 + Daily Scrum)",
   "author": {
     "name": "hayoung-jeremy"
   }

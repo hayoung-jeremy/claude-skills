@@ -1,7 +1,0 @@
-{
-  "name": "daily-scrum",
-  "description": "매일 오전 Notion 데이터 기반으로 #스크럼 채널 Daily Scrum 초안을 자동 작성하는 스킬",
-  "author": {
-    "name": "hayoung-jeremy"
-  }
-}
