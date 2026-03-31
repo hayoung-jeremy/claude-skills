@@ -1,0 +1,7 @@
+{
+  "name": "work-tracker",
+  "description": "개인 노션 Daily DB에서 회사 태스크별 작업 트래커를 자동 생성하는 스킬",
+  "author": {
+    "name": "hayoung-jeremy"
+  }
+}

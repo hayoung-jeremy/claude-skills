@@ -56,9 +56,11 @@ argument-hint: [정리 대상 설명 또는 노션 URL]
 ```sql
 SELECT url, "태스크명", "프로젝트", "상태"
 FROM "collection://db1ed8bf-4edf-4a87-b5bd-8774ce361a73"
-WHERE "담당자" CONTAINS '310d872b-594c-812e-b436-0002c6a46fa9'
-  AND "상태" != '완료'
+WHERE "상태" NOT IN ('완료', '아카이빙')
 ```
+
+결과에서 `담당자` 필드에 `310d872b-594c-812e-b436-0002c6a46fa9`가 포함된 행만 필터링해요.
+(담당자 필드는 `["user://310d872b-..."]` JSON 배열 형식이므로 문자열 포함 여부로 판별)
 
 각 태스크의 `프로젝트` relation URL로 프로젝트 페이지를 `notion-fetch`하여 `프로젝트명`을 추출해요.
 
