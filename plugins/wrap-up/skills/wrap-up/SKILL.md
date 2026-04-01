@@ -219,3 +219,4 @@ Notes 생성:
 - Daily DB의 기존 내용은 절대 삭제하지 않아요 - append만 해요
 - 사용자 확인 없이 민감한 정보(API 키, 비밀번호 등)를 노션에 작성하지 않아요
 - Notes 작성 시 아이콘을 "claude" 커스텀 이모지로 설정하려 시도해요. 불가하면 스킵해요
+- **자동 링크 변환 방지**: `.`이 포함된 기술 용어(파일명, 패키지명, 도메인 등)는 반드시 인라인 코드(backtick)로 감싸요. Notion이 `notion.py`, `vercel.app` 같은 텍스트를 자동으로 링크로 변환하기 때문이에요. 예: `model.pt`, `torch.utils.data`, `api.example.com`
